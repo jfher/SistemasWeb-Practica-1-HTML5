@@ -6,11 +6,11 @@
 </head>
 
   <body>
-
+<img src="publicidad.gif" class="publicidad">
     <!-- Header -->
 
     <header class="primary-header container group">
-
+      <img src="logo.png" class="logoimg">  
       <h1 class="logo">
         <a href="clases.html">SISTEMAS WEB</a>
       </h1>
@@ -25,7 +25,6 @@
       </nav>
 
     </header>
-
 
     <!-- Main content -->
 
@@ -55,6 +54,27 @@
             </label>
 
             <label>
+              Sexo
+              <div class="radios">
+                  <input type="radio" name="sex" value="male" checked ><p>Male</p>
+              </div>
+              <div class ="radios">
+                   <input type="radio" name="sex" value="female"><p>Female</p>
+              </div>
+            </label>
+
+            <label>
+              <p class="colortitle">Color de Polera</p>
+              <input type ="color" name="shirtcolor">
+            </label>
+
+            <label>
+              Fecha Nacimiento
+              <input type="date" name="bday">
+            </label>
+
+            
+            <label>
               Email
               <input type="email" name="email" placeholder="Email address" required>
             </label>
@@ -72,7 +92,7 @@
               Comentarios
               <textarea name="comments"></textarea>
             </label>
-
+           
           </fieldset>
 
           <input class="btn btn-default" type="submit" name="submit" value="Registrarse">
